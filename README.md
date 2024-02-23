@@ -1,7 +1,10 @@
 # COP4520assignment2
 
 #Part 1: Minotaur Birthday (part1.cpp)
+
+
 Strategy:
+
 The first guest will find a cupcake at the end 100% of the time, and should eat it. Assuming
 this guest can see the cupcake after leaving the labryinth (which is not specified but I dont
 see how it's solvable otherwise), the first guest should wait and count every time the plate is left

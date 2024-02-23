@@ -18,3 +18,5 @@ The number of guests is a #define, so the number of guests at the party can easi
 # Part 2: Minotaur Vase (part2.cpp)
 
 I think the third strategy (the queue) is the best in terms of maximizing the amount of people who can see the vase. The first strategy is chaotic and many guests will waste time checking the door. The second strategy is better, but assuming guests are wandering around the party, there may be times where there are no guests in the vase room if nobody is checking the sign. The queue does not allow the guests to enjoy the party while they wait in line, but it is the most orderly and efficient way to make sure there is always a guest in the vase room and nobody is confused about whether they may enter or not.
+
+In my implementation, the minotaur only has a certain amount of viewing slots before he closes the doors (since end behavior was not defined in the assignment documentation). Both the number of guests and the amount of viewing slots are #defined at the top of the file.
